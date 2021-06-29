@@ -1,0 +1,43 @@
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.btn {
+    width: 170px;
+    text-align: center;
+    border: 1px solid #3a70e0;
+    border-radius: 50px;
+    background: #3a70e0;
+    padding: 0.5vw;
+    transition: color 0.4s, background 0.4s, border-color 0.4s;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    &:hover {
+        background: #fff;
+        color: #3a70e0;
+    }
+    &-pos {
+        margin-top: 20px;
+        // position: absolute;
+        // width: 40%;
+        // left: 17%;
+        // top: 30%;
+    }
+    &-wrap {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-right {
+        width: 95px;
+        //left: 0;
+    }
+    &-left {
+        width: 95px; //будет круглым при 45px
+        //right: 0;
+    }
+}

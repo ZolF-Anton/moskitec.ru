@@ -1,0 +1,22 @@
+.carousel {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    &__container {
+        width: 80%;
+        margin: auto;
+        border: 3px outset #3a70e0;
+        overflow: hidden;
+        img {
+            display: block;
+            width: 100vw;
+        }
+    }
+    &__slide {
+        display: flex;
+        height: auto;
+    }
+}
+.time2Animate {
+    transition: 0.4s all ease-in-out;
+}
